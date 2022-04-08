@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 0 32px 0 32px;
+}
+.header_logo{
+    font-size: 24px;
+    color: black; /*to change in #F9FAF8*/
+    margin-right: auto;
+}
+.header_link{
+    font-size: 18px;
+}

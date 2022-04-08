@@ -1,6 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
+    height: 100vh;
+}
+.first_level {
+    background-color: #1F2937;
 }
 ul{
     list-style: none;
@@ -12,9 +16,16 @@ ul{
 }
 .header_logo{
     font-size: 24px;
-    color: black; /*to change in #F9FAF8*/
+    color: #F9FAF8; /*to change in #F9FAF8*/
     margin-right: auto;
 }
-.header_link{
+.header_link,
+.main_secondary_text{
     font-size: 18px;
+    color: #E5E7EB;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }

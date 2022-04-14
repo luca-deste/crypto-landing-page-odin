@@ -73,3 +73,29 @@ h1 {
     border: 2px solid rgb(59, 59, 59);
     margin-right: 400px;
 }
+.second_level{
+    margin: 0 400px;
+}
+.second_level_main_container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 90px;
+}
+.second_level_main_text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+.second_level_main_container
+img{
+    width: 120px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.second_level_text{
+ text-align: center;   
+}
